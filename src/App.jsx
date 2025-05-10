@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"flex-start"}}>
+     <div style={{display:"flex", flexDirection:"column", justifyContent:"flex-start"}}>
       <h1 style={{margin:0, padding:0}}>Counter App</h1>
       <div style={{display:"flex", flexDirection:"column", marginLeft:10}}>
         <p>Count: {value}</p>
